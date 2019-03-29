@@ -127,11 +127,13 @@ body {
   transition: 0.2s;
   -webkit-transform: translateY(-200%);
           transform: translateY(-200%);
+  opacity: 0;
 }
 
 .menu_active {
   -webkit-transform: translateY(0%);
           transform: translateY(0%);
+  opacity: 1;
 }
 
 .menu__nav {
@@ -225,11 +227,12 @@ body {
 }
 
 .hero {
-  background: #fffefc url("../image/hero/hero-bg.jpg") no-repeat center center;
+  background: #fffefc url("../image/hero/hero-bg.jpg") no-repeat center top -60px;
   background-size: cover;
-  padding-top: 180px;
+  padding-top: 120px;
   padding-bottom: 270px;
   height: 100vh;
+  margin-top: 80px;
 }
 
 .hero__title {
